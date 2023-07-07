@@ -9,16 +9,34 @@
 </head>
 <body>
     <header class="header-container">
-        <div class="header-container--left">
-            <button>This Interior</button>
-        </div>
-        <div class="header-container--right">            
-                <a href="/">Home</a>
-                <a href="/">Collection</a>
-                <a href="/">About</a>
-                <a href="/">Contact</a>
-        </div>
+        <section class="header-container--left">
+            <button >This Interior</button>
+        </section>
+        <section class="header-container--right">            
+                <a href="#">Home</a>
+                <a href="#">Collection</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+        </section>
+        <section class="menu-mobile">
+            <button class="btn-icon-header" onclick="toogleMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill=#ffffff class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+        </section>
     </header>
+    <section class="menuSide hidden">
+        <button onclick="closeMenu()" class="closeBtn">X</button>
+        <div class="menuSide-container">
+            <a href="#">Home</a>
+            <a href="#">Collection</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </section>
     <main class="main-container">
         <section class="text-container">
             <h1>Modern interior</h1>
@@ -48,5 +66,6 @@
         <p>created by Karitina Brito <img src="./assets/devchallenges.png" alt=""></p>
     </section>
     
+    <script src="./main.js"></script>
 </body>
 </html>
