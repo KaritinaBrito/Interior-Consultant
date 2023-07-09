@@ -94,6 +94,9 @@ html{
     border: none;
     position: relative;
 }
+.closeBtn:hover{
+    cursor: pointer;
+}
 /* Main */
 .main-container {
     display: grid;
