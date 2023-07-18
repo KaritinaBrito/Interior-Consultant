@@ -41,6 +41,7 @@
 
 Page with responsive design based on given design
 
+### Built With
 
 
 ## Features
@@ -59,4 +60,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [ @KaritinaBrito](https://{github.com/KaritinaBrito})
+
